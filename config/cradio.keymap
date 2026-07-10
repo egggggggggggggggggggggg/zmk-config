@@ -88,7 +88,7 @@
             &kp EXCL   &kp AT     &kp HASH   &kp PRCNT  &kp MINUS      &kp GT     &kp PLUS   &kp EQUAL  &kp ASTRK &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ^       │  `       │  ?       │  $       │          │   │  &       │  ~       │  \       │  |       │  :       │
-           &trans      &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans
+            &kp CARET  &kp GRAVE  &kp QMARK  &kp DLLR   &trans         &kp AMPS   &kp TILDE  &kp BACKSLASH &kp PIPE   &kp COLON
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 │          │          │   │          │          │
                                              &trans     &trans         &trans     &trans
