@@ -105,10 +105,10 @@
             &mkp MB4   &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5       &msc SCRL_UP &trans     &mmv MOVE_UP &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ HOME     │ PAGE DN  │ PAGE UP  │ END      │          │   │          │          │          │          │          │
-            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &msc SCRL_DOWN &mmv MOVE_LEFT &trans &mmv MOVE_RIGHT &trans
+            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │ DEL      │ INSERT   │          │          │   │          │          │          │          │          │
-            &caps_word &kp DEL    &kp INSERT &trans     &trans         &trans     &trans     &mmv MOVE_DOWN &trans     &trans
+            &caps_word &kp DEL    &kp INSERT &trans     &trans         &trans     &trans     &trans &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 │          │          │   │          │          │
                                              &trans     &trans         &trans     &trans
